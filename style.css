@@ -1,12 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 h1{
 
     font-size: 50px;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -17,4 +18,27 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("photosop/developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+.dream-area{
+    background-image: url(photosop/developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
