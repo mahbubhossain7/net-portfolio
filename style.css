@@ -8,7 +8,7 @@ h1{
     font-size: 50px;
 }
 .orange-highlight{
-    color: orange;
+    color: rgb(252, 166, 6);
 }
 .half-width{
     width: 40%;
@@ -17,7 +17,7 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 .top-banner{
     background-image: url("photosop/developer-portfolio/top-banner.png");
@@ -42,3 +42,28 @@ h2{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-box{
+    box-shadow: 10px 10px  40px gray;
+    border-radius: 5px;
+    height: 70%;
+
+}
+.experience-area{
+    background-image: url(photosop/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+  #full-stack{
+      border-left: 7px solid;
+      border-image: linear-gradient(lightsalmon,tomato);
+      border-image-slice: 1;
+      background-color: white;
+  } 
+  #baby-web{
+      border-left: 7px solid;
+      border-image: linear-gradient(180deg,blue,cyan);
+      border-image-slice:1;
+  }
+  #bame-rakhi{
+      text-align: left;
+  } 
